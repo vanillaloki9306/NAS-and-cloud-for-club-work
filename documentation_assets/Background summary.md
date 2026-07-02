@@ -1,17 +1,56 @@
-The project officially began on June 1st, 2026 with the first parts list I drafted. 
-Between June 1st and June 24th, I updated 9 iterations of my parts list until finalization on June 26th.
-During that time, I was in mainland China. I decided to capitalize on that opportunity to purchase parts for much cheaper than they would be in the US.
-On June 20th, my first complete price estimation landed at $995, but the final price was $1532. 
-When the original parts list was ordered and arrived, I conducted a test bench to ensure the parts were all working correctly.
-During this test, I realized that the bios settings wouldn't save and it would revert back to defaults everytime. 
-I concluded that this was the result of a dead CMOS battery.
-After taking apart the I/O armor, I found the CMOS wire and tested it; it had 0 voltage.
-The CMOS battery was wrapped in a yellow enclosure and glued to the side of the built-in wifi module.
-For the duration of the test, I was unable to completely screw down the Thermalright AXP120-X67 low profile cooler due to ram clearance issues.
-It was able to hold the CPU in reasonable temps while I was going through bios, but I needed to replace it.
-I was unable to view the PCIE list in bios, probably due to software from Maxsun. This mean I had no idea whether or not my Mellanox ConnectX3 card was working.
-Thankfully, I felt the heatsink and it was somewhat warm.
-The test helped me conclude that I needed to replace both the Thermalright AXP120-X67 for a larger cooler, 
-and the Maxsun B760I D4 Terminator for a new motherboard with a working CMOS battery.
-I have since packed up the other parts and left for the US.
-The parts have all arrived and I still haven't built it, but I am confident that the network card can work.
+# Project Backstory: Sourcing & Prototype Validation (June 2026)
+
+This log covers the initial design phase, international component sourcing in Mainland China, and the critical bench testing that reshaped the hardware configuration before final assembly in the United States.
+
+---
+
+## Timeline and Budget Evolution
+
+The project began on **June 1st, 2026** with the initial draft of the parts list. Updates were made to optimize the structure of the NAS.
+
+* **Design Iterations:** 9 versions drafted between June 1st and June 24th.
+* **Parts Finalization:** June 26th, 2026.
+* **Sourcing Strategy:** Capitalized on being physically present in Mainland China to source components directly from the local market (primarily ordered off JD) at a significantly lower price point than the US.
+
+### Budget Variance Analysis
+| Milestone | Date | Estimated Cost | Notes |
+| :--- | :--- | :--- | :--- |
+| **First Complete Estimate** | June 20, 2026 | \$995 | Baseline target configuration. |
+| **Final Sourcing Total** | June 26, 2026 | \$1,532 | Adjusted for hardware upgrades and market availability. |
+
+---
+
+## Phase 1: Bench Test
+
+Once the initial round of components arrived in China, a minimal open-air test bench was constructed to validate hardware functionality before shipping the components internationally. 
+
+> **Critical Hardware Issues Identified**
+> The prototype test bench ran for **2 hours** and exposed major component flaws, leading to a redesign.
+
+### 1. Motherboard CMOS Failure (Maxsun B760I D4 Terminator)
+* **Symptom:** System failed to save BIOS settings, reverting to factory defaults upon every power cycle.
+* **Diagnosis:** Suspected a dead CMOS battery. Disassembled the motherboard's I/O armor to expose the CMOS wiring. 
+* **Result:** Multimeter probe verified **0.0V** across the battery leads.
+* **Conclusion:** The CMOS battery was wrapped in a proprietary yellow enclosure and permanently glued to the side of the integrated Wi-Fi module, making replacement impossible without risking damage and voiding warranty.
+
+### 2. Clearance Conflict (Thermalright AXP120-X67)
+* **Symptom:** Physical obstruction during CPU cooler installation.
+* **Diagnosis:** The low-profile cooler could not be fully torqued down due to clearance conflicts with the RAM heatspreaders.
+* **Result:** The cooler maintained safe thermal thresholds during brief BIOS navigation, but physical stress on the DIMM slots made it unviable for the build.
+
+### 3. Expansion Card Verification (Mellanox ConnectX-3)
+* **Symptom:** The PCIe device list was unavailable/unreadable within the Maxsun BIOS interface.
+* **Diagnosis:** Likely a firmware limitation within the Maxsun BIOS environment.
+* **Result:** Inspection confirmed the network card's heatsink was warm to the touch, indicating the card was successfully pulling power from the PCIe slot.
+
+---
+
+## Current Status as of July 2nd 2026
+
+Based on the information gathered during the bench test, the following revisions were made before leaving China:
+
+* **Returned:** `Maxsun B760I D4 Terminator` *Reason:* Defective, non-replaceable CMOS battery; restrictive BIOS firmware.
+* **Returned:** `Thermalright AXP120-X67` *Reason:* Insufficient physical clearance for chosen RAM modules.
+
+### Current Milestone: Form Factor Arrived in US
+All verified functional components (including the Mellanox ConnectX-3 10GbE card) have been safely packed, transported, and unboxed in California. The replacement motherboard and a larger, high-clearance CPU cooler are arrived.
