@@ -4,7 +4,7 @@ Plan as of July 1st 2026, prior to building but after original testing.
 
 ---
 
-## Timeline and Budget Evolution
+## Timeline and Budget
 
 The project began on **June 1st, 2026** with the initial draft of the parts list. Updates were made to optimize the structure of the NAS.
 
@@ -20,11 +20,11 @@ The project began on **June 1st, 2026** with the initial draft of the parts list
 
 ---
 
-## Phase 1: Bench Test
+## Bench Test
 
-Once the initial round of components arrived in China, a minimal open-air test bench was constructed to validate hardware functionality before shipping the components internationally. 
+Quickly conducted a test to ensure hardware functionality before shipping the components internationally. 
 
-> **Critical Hardware Issues Identified**
+> **Observations**
 > The prototype test bench ran for **2 hours** and exposed major component flaws, leading to a redesign.
 
 ### 1. Motherboard CMOS Failure (Maxsun B760I D4 Terminator)
