@@ -8,7 +8,7 @@ July 4th 2026, 15:23 PST
     6. I have determined that the 10GBe mellanox ConnectX-3 card has no practical use because the networking box from Spectrum only supports up to 2.5GBe. This also means that my replacing the cat5e with cat6a was an entirely useless ordeal. A little bit unfortunate and I'm quiet dissapointed.
 
 July 3rd 2026
-  Began building
+  Began building and recorded most of it and some.
 
 July 2nd 2026, 10:19 PST
   
