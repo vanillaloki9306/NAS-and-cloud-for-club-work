@@ -1,2 +1,14 @@
+July 4th 2026, 15:23 PST
+  Yesterday I completed most of the build, and today I finished it as much as I could. During the build, I encountered a few issues;
+    1. The PSU positioning made it impossible to screw down one of the motherboard standoffs. (Not resolved)
+    2. PCIE card was struggling to stay in place without warping in the slot. I fixed this by bending the bracket with a tool so it stood straight up. I ended up sacrificing its structural integrity to ensure structural integrity.
+    3. The power cables for the molex and sata connection weren't long enough to attach to the hotswap plate for the HDDs. As of now, I'm waiting on an extension pack.
+    4. The 140mm Noctua NF-A15 did not fit in the case. Infact, it didn't even fit the heatsink clips that came with my cooler. Initially, I assumed that because it was round, I was fine. I didn't anticipate that the fan won't be placed in the dead center of the case; therefore, I have to return it. As of now, I am using the fan that came with the cooler.
+    5. First launch took just a few seconds to enter BIOS. However, the cursor wasn't moving. The mouse was recieving power (from the RGB lights) and I confirmed that all the USB-A ports were working. I tried to reboot; however, even though the system was still active (fans were spinning), nothing was showing on the monitor. I could tell it was on because the monitor had a faint blue glow to it (I do not have an OLED). 
+    6. I have determined that the 10GBe mellanox ConnectX-3 card has no practical use because the networking box from Spectrum only supports up to 2.5GBe. This also means that my replacing the cat5e with cat6a was an entirely useless ordeal. A little bit unfortunate and I'm quiet dissapointed.
+
+July 3rd 2026
+  Began building
+
 July 2nd 2026, 10:19 PST
   
