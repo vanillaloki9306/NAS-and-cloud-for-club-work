@@ -1,6 +1,6 @@
-# Project Backstory: Sourcing and Prototype Validation (June 2026)
+# Project Backstory 6/2026
 
-This log covers the initial design phase, international component sourcing in Mainland China, and the testing that shaped the hardware configuration before final assembly in the United States.
+Plan as of July 1st 2026, prior to building but after original testing.
 
 ---
 
