@@ -21,10 +21,10 @@ This project serves as both a private cloud two school clubs and an exploration 
 * **CPU:** Intel Core i5-13600K
 * **PCIE:** Mellanox ConnectX-3 10GbE Network card
 * **Motherboard:** AsRock B760M-ITX/D4 WIFI
-* **CPU Cooling:** Thermalright SI-100 modified with Noctua NF-A15 PWM for a 100mm tall + 140mm fan low profile cooler
+* **CPU Cooling:** Thermalright SI-100
 * **Case and cooling:** Jonsbo N3, modified with 2x92mm Noctua NF-A9 and 2x80mm Noctua NF-A8
 * **SSD:** Predator GM7 512gb PCIe Gen4x4 m.2 NVMe
-* **RAM:** Great Wall 2x16gb DDR4-3200 CL16
+* **RAM:** Great Wall 2x16gb DDR4-3200 CL24
 * **HDD:** 2x14tb HC530 7200rpm Enterprise Hard Drives
 * **PSU:** Great Wall TF750 750w ATX3.1 PCIe5.1 80+ platinum SFX power supply
 * **Additional:** SFP+ to RJ45 adapter + Cat6A ethernet cable
@@ -35,14 +35,14 @@ This project serves as both a private cloud two school clubs and an exploration 
 
 ## Project Documentation
 
-* **Daily Progress:** The day-by-day steps and progress are at CHANGELOG.md
+* **Daily Progress:** The day-by-day steps and progress are at CHANGELOG.txt
 * **Asset Tracking** Video analysis would be posted in the future, probably on youtube
 
 ---
 
 ## Upcoming Milestones
 
-- [ ] Complete the build of the NAS
+- [ /] Complete the build of the NAS
 - [ ] Configure TrueNAS Scale environment
 - [ ] Establish Tailscale networking between New Jersey, California, and possibly China as well in the future.
 - [ ] Establish configs for Nextcloud, Plex, and automated backup, etc..
