@@ -12,7 +12,7 @@ This project serves as both a private cloud two school clubs and an exploration 
 
 * **Synchronization:** Establish a data pipeline between multiple regions.
 * **Containerized Ecosystem:** Establish self-hosted services to remove reliance on paid cloud platforms.
-* **Service management:** Maintain a service that is simulatenously relied upon by multiple club members.
+* **Service management:** Maintain a service that is simulatenously relied upon by multiple people.
 
 ---
 
