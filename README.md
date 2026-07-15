@@ -40,7 +40,7 @@ This project serves as both a private cloud two school clubs and an exploration 
 
 ---
 
-## Upcoming Milestones
+## Milestones
 
 - [Completed 7/4/2026 and 7/15/2026] Complete the build of the NAS
 - [ ] Configure TrueNAS Scale environment
