@@ -1,3 +1,8 @@
+July 14th, 2026, 15:38 PST
+  Ordered an LGA 1700 contact frame from amazon for $7.99. 
+  The specific frame was the Thermalright LGA 1700 Contact Frame.
+  The contact frame will come with a free tube of thermal paste.
+
 July 4th 20206, 16:22 PST
   Began working on setting up the NAS
     1. Updated the BIOS version from 8.01 to 11.02 on the AsRock B760M-ITX/D4 WiFi
